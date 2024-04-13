@@ -6,7 +6,7 @@ data "terraform_remote_state" "shared" {
   backend = "remote"
 
   config = {
-    organization = "xdingzhgit"
+    organization = "dingzhgit"
     workspaces = {
       name = "hcup-be-shared"
     }
