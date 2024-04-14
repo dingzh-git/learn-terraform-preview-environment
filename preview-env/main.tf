@@ -26,7 +26,7 @@ data "aws_ami" "ubuntu" {
     values = ["hvm"]
   }
 
-  owners = ["301982127378"] # Canonical
+  owners = ["099720109477"] # Canonical
 }
 
 data "template_file" "user_data" {
